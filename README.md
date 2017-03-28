@@ -1,8 +1,16 @@
 Script to download your slack backups
 
-cp token-sample.sh token.sh
+To set it up:
+
+`cp token-sample.sh token.sh`
 
 Then fill in your Slack API token.
+
+To run it:
+
+`./get-day-history.sh`
+
+I run it via crontab every 24 hours
 
 Known issues:
 
